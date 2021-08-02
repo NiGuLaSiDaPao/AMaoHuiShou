@@ -1,0 +1,41 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/me/me",
+        "pages/order/order"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "阿猫回收",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+        "color": "#000000",
+        "selectedColor": "#2e9571",
+        "backgroundColor": "#FFFFFF",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "pages/images/首页-after.png",
+                "selectedIconPath": "pages/images/首页.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/order/order",
+                "iconPath": "pages/images/订单-after.png",
+                "selectedIconPath": "pages/images/订单.png",
+                "text": "订单"
+            },
+            {
+                "pagePath": "pages/me/me",
+                "iconPath": "pages/images/我的-after.png",
+                "selectedIconPath": "pages/images/我的.png",
+                "text": "我的"
+            }
+        ]
+    }
+}
